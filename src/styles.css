@@ -1,0 +1,54 @@
+/* styles.css */
+
+.App {
+  display: flex;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.registration-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 8rem;
+}
+
+.registration-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-form form,
+.registration-form form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-form label {
+  margin-bottom: 8px;
+}
+
+.registration-form input[type='text'],
+.registration-form input[type='email'],
+.registration-form input[type='password'],
+.registration-form button {
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.registration-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.registration-form button:hover {
+  background-color: #0056b3;
+}
